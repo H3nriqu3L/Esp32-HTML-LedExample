@@ -21,6 +21,7 @@ void setup() {
   Serial.println("Conectado ao WiFi");
   Serial.println("Endereço IP: ");
   Serial.println(WiFi.localIP());
+  myServer.begin();
 }
 
 void loop() {
